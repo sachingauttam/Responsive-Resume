@@ -80,15 +80,20 @@
             }
           }
 
-          @media screen and (max-width: 653px) {
+           @media screen and (max-width: 653px) {
+              .header{
+                  margin: auto;
+              }
             .contect{
-               width: 80vw;
+               width:100vw;
                float: none;
+               margin: 0;
             }
             .subHeader{
                 text-align: center;
                 /* background-color: aqua; */
                 width: 90vw;
+
             }
           }
         

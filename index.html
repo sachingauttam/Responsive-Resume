@@ -4,121 +4,185 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Resume</title>
+    <title>Responsive Resume using HTML and CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
-    <div class="header">
-       <h1>Sachin Kr. Sharma</h1>
-       <h2>Certified Full Stack Developer</h2>
-    </div>
-    <div class="details">
-      <div class="contect">
-          <div>
-               <p class="font">CONTECT</p>
-               <label for="conectNumber" class="phone font1" >Phone:<a font href="tel:+919610643369">+919610643369</a></label><br><br>
-               <label for="Email" class="email font1">Email:<a href="mailto:sgauttam83@gamil.com">sgauttam83@gmail.com</a></label><br><br>
-               <label for="linkedIn" class="linkedIn font1">LinkedIn:<a href="https://www.linkedin.com/in/sachin-kumar-sharma-7503021b8">sachin-kumar-sharma</a></label>
+    <div class="container">
+        <div class="left_side">
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="https://go-models.com/uploads/page-images/male-fitness-model-1.webp" alt="pic">
+                </div>
+                <h2>Sachin Kr Sharma<br> <span>Full Stack Developer</span></h2>
             </div>
-          <div>
-              <p class="font">Skills</p>
-               <ol> 
-                    <li class="font1">Technical Skills</li><br>
-                 <ul>
-                    <li class="font2">JavaScript</li>
-                    <li class="font2">CSS</li>
-                    <li class="font2">HTML</li>
-                    <li class="font2">React</li>
-                    <li class="font2">Redux</li>
-                    <li class="font2">Deployment</li>
-                 </ul><br><br>
-                   <li class="font1">Additional Skills</li><br>
-                 <ul>
-                    <li class="font2">Project Mangement</li>
-                    <li class="font2">Editing</li>
-                    <li class="font2">Data Analyst</li>
-                    <li class="font2">Physics Expert</li>
-                 </ul>
-               </ol>
-          </div>
-          <div>
-              <p class="font">Languages</p>
-              <ul>
-                  <li class="font2">English</li>
-                  <li class="font2">Hindi</li>
-                  <li class="font2">Rajasthani</li>
-              </ul>
-          </div>
-          
-      </div>
-      <div class="subHeader">
-            <div>
-                <i class="font">ABOUT ME</i>
-                <p class="bio">A full stack developer with over 3 years of experience in designing and developing web applications.
-                    Looking for challenging roles in web and mobile industry to enhance my skills and provide my services to add value to the products of the organization.
-                    Highly motivated self learner with a passion for learning and keeping informed of the latest in technology.
-                </p>
-            </div><br><br>
-            <div>
-                <i class="font">EDUCATION</i>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Qualification</th>
-                            <th>Board</th>
-                            <th>Grade</th>
-                            <th>Year</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>S.S.C</td>
-                            <td>G.S.E.B India</td>
-                            <td>A+</td>
-                            <td>2014</td>
-                        </tr>
-                        <tr>
-                            <td>H.S.C (Science Stream)</td>
-                            <td>G.S.E.B India</td>
-                            <td>A+</td>
-                            <td>2016</td>
-                        </tr>
-                        <tr>
-                            <td>GDCA (Grad. Dipl in Computer Applications)</td>
-                            <td>NIE (National Institute Of Engineering), Mumbai, India</td>
-                            <td>A</td>
-                            <td>2018</td>
-                        </tr>
-                        <tr>
-                            <td>B.Sc. (Hons) - Applied Accounting</td>
-                            <td>Oxford Brookes University</td>
-                            <td>2:1 – Upper Second Class Honours</td>
-                            <td>2021</td>
-                        </tr>
-                    </tbody>
-                </table>
 
-        
-
-            </div><br><br>
-            <div>
-                <i class="font">Experience</i><br><br>
-                <span class="font1">ABC Company</span><br>
-                <span class="font1">Support Engineer (Technical Support)(2018-2021)</span><br><br>
-                <span class="font2">Job Responsbilities</span><br>
-                <ul class="forRes">
-                    <li>Answer customer queries over email / ticketing system</li>
-                    <li>Interact with our engineering team to get software issues and bugs resolved</li>
-                    <li>Occasionally interact with customers over Skype or telephone</li>
-                    <li>Contribute ideas to the team on how customers can be delighted</li>
+            <div class="contactInfo">
+                <h2 class="title">Contact Info</h2>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span><a font href="tel:+919610643369">+919610643369</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text"><a href="mailto:sgauttam83@gamil.com">sgauttam83@gmail.com</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                        <span class="text"><a href="https://www.google.com">www.mywebsite.com</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        <span class="text"><a href="https://www.linkedin.com/in/sachin-kumar-sharma-7503021b8">www.linkedin.com/me</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">City, State, Country</span>
+                    </li>
                 </ul>
             </div>
-            <div>
-                <i class="font">Declaration</i>
-                <p> I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief.</p>
+
+            <div class="contactInfo education">
+                <h2 class="title">Education</h2>
+                <ul>
+                    <li>
+                        <h5>yyyy - yyyy</h5>
+                        <h4>Last Qualification</h4>
+                        <h4>Some University</h4>
+                    </li>
+                    <li>
+                        <h5>yyyy - yyyy</h5>
+                        <h4>Second Last Qualification</h4>
+                        <h4>Some University</h4>
+                    </li>
+                    <li>
+                        <h5>yyyy - yyyy</h5>
+                        <h4>Third Last Qualification</h4>
+                        <h4>Some University</h4>
+                    </li>
+                </ul>
             </div>
-      </div>
+
+            <div class="contactInfo language">
+                <h2 class="title">Languages</h2>
+                <ul>
+                    <li>
+                        <span class="text">English</span>
+                        <span class="percentage">
+                            <div style="width: 95%"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Hindi</span>
+                        <span class="percentage">
+                            <div style="width: 75%"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="right_side">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Ducimus aliquid illum nesciunt nihil, eaque magnam amet? Delectus iusto 
+                    laudantium magni quasi eos provident exercitationem repudiandae, officiis, 
+                    accusamus assumenda laboriosam tempora nesciunt!<br><br>
+                    Doloribus voluptatum quia odit quaerat itaque eum illum accusamus corporis alias 
+                    totam fugiat ab recusandae iure repellendus, tempora reprehenderit.</p>
+            </div>
+            <div class="about">
+                <h2 class="title2">Experience</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>yyyy - Present</h5>
+                        <h5>Current Company</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Position/Title/Role</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>yyyy - yyyy</h5>
+                        <h5>Last Company</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Position/Title/Role</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>yyyy - yyyy</h5>
+                        <h5>First Company</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Position/Title/Role</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>
+                    </div>
+                </div>                
+            </div>
+            <div class="about skills">
+                <h2 class="title2">Professional Skills</h2>
+                <div class="box">
+                    <h4>HTML</h4>
+                    <div class="percent">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width: 55%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Javascript</h4>
+                    <div class="percent">
+                        <div style="width: 15%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>React</h4>
+                    <div class="percent">
+                        <div style="width: 5%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Mongo</h4>
+                    <div class="percent">
+                        <div style="width: 10%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Git</h4>
+                    <div class="percent">
+                        <div style="width: 85%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about interest">
+                <h4 class="title2">Interest</h4>
+                <ul>
+                    <li><i class="fa fa-book" aria-hidden="true"></i> Reading</li>
+                    <li><i class="fa fa-music" aria-hidden="true"></i> Music</li>
+                    <li><i class="fa fa-code" aria-hidden="true"></i> Coding</li>
+                    <li><i class="fa fa-heartbeat" aria-hidden="true"></i> Meditation</li>
+                </ul>
+            </div>
+
+        </div>
     </div>
+    
 </body>
 </html>
